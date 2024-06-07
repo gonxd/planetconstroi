@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+.mapouter {
+    height: 50vh;
+}
+
+.gmap_canvas {
+    height: 50vh;
+}
+/* Custom 200vh height class */
+.h-200vh {
+    height: 200vh;
+}
+
+#mobile-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 51; /* Make sure menu appears over backdrop */
+    box-shadow: none; /* Remove shadow */
+}
+
+#mobile-menu li {
+    list-style: none; /* Remove bullet points */
+}
+
+#mobile-menu a {
+    display: block;
+    padding: 0.5rem; /* Adjust padding as needed */
+    text-decoration: none;
+    color: #000; /* Set the color for menu items */
+    letter-spacing: 0.1em; /* Increase letter spacing */
+}
+
+#close-button {
+    z-index: 52; /* Ensure close button appears over menu */
+}
+
+
+
